@@ -69,7 +69,7 @@
   #nav-dots {
     position: absolute;
     bottom: 20px;
-    right: 40px;
+    /* right: 40px; */
     display: flex;
   }
   
@@ -126,7 +126,7 @@
   
   @media screen and (max-width: 768px) {
     #nav-dots {
-      right: 1vw;
+      /* right: 1vw; */
       bottom: 1vh;
     }
     .dots {
