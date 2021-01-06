@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
 }
-body
-{
-    font-family: sans-serif;
+
+.center1{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
+
 #nav-bar
 {
     position: sticky;
@@ -52,13 +57,15 @@ body
     /* background-image: linear-gradient(to right, #a517ba,#5f1782); */
     background-color: #eef5f4;
     color: #000;
-    padding-top: 5%; 
+    /*padding-top: 5%;*/
+    height: 95vh;
+    width: 100%;
 }
 .promo-title
 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 89px;
 }
 .play-btn
 {
@@ -193,6 +200,7 @@ border-radius: 0 50px 50px 0 !important;
     position: relative;
     margin: 0;
     padding: 1em;
+
     border: none;
    font-weight: bold;
     /* border-top: 1px solid rgba(34, 36, 38, .1); */
@@ -202,27 +210,15 @@ border-radius: 0 50px 50px 0 !important;
 .card {
     font-size: 1em;
     overflow: hidden;
-    padding: 5;
+    padding-top: 10px;
+    padding-left: 120px;
     border: none;
-    border-radius: 70px !important;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-radius: 40px !important;
     margin-top:20px;
-    height: 100px;
-    width: 300px;
+    height: 120px;
+    width: 330px;
 }
-.number{
-    background-color: #e4f0ef ;
-    border-radius: 30px;
-    height: 100px;
-    
-   
-}
-.number span{
-    text-align: center;
-    font-weight: bolder;
-    font-size: xx-large;
-    padding-top: 50%;
-}
+
 /*---------------about-us section--------------*/
 
 #about-us
