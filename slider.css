@@ -1,0 +1,157 @@
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slider-container {
+    width: 100%;
+  
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  .slider-track {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    transition: ease-in-out 1s;
+  }
+  .slider-item {
+    min-width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+  }
+  .slider-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 2rem;
+    max-width: 25vw;
+  }
+  
+  .slider-text > h1 {
+    margin-bottom: 4vw;
+  }
+  
+  .slider-text > p {
+    margin-bottom: 2vw;
+  }
+  .prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .paginate-button {
+    border: solid 2px #000 !important;
+    background-color: #5ca572;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  .slider-button:hover {
+    cursor: pointer;
+  }
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+  #nav-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+  }
+  
+  .dots {
+    min-width: 10px !important;
+    height: 10px !important;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #aeb4ac;
+  }
+  
+  .dots.active-nav {
+    background-color: #ffffff;
+  }
+  
+  .slider-img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  h2,
+  h3,
+  h5,
+  h6 {
+    color: #5ca572;
+  }
+  .text-green {
+    color: #5ca572;
+  }
+  @media only screen and (max-width: 786px) {
+    .col-sm-12 {
+      width: 100% !important;
+      white-space: wrap;
+    }
+  }
+  
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .customer-section {
+    width: 60%;
+  }
+  
+  .small-card {
+    width: 30%;
+  }
+  .news-section {
+    width: 40%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #nav-dots {
+      right: 1vw;
+      bottom: 1vh;
+    }
+    .dots {
+      min-width: 2px !important;
+      height: 2px !important;
+    }
+    .slider-header {
+      font-size: 0.5rem;
+    }
+    .slider-text {
+      padding: 0 0.4rem 0 0;
+    }
+    .slider-text > h1 {
+      margin-bottom: 1vw;
+    }
+    .slider-text-desc {
+      padding: 0;
+      font-size: 0.4rem;
+    }
+    .slider-button {
+      font-size: 0.4rem !important;
+      padding: 0 !important;
+      margin: 0;
+    }
+    .customer-section {
+      width: 100% !important;
+    }
+}
