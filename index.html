@@ -8,11 +8,11 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 <style>
 .btn{
   background-color: white;
@@ -56,7 +56,8 @@
     
  
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a>
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa fa-bars"></i>
   </button>
@@ -79,6 +80,8 @@
       </li>
     </ul>
   </div>
+  </div>
+  
 </nav>
 </section>  
     
@@ -237,7 +240,7 @@
           </div>
           </div>
       </div>
-      <!-- <div class="slider-item">
+      <div class="slider-item">
         <div class="row offset-1">
           <div class="col-md-4 testimonials">
               <p>Subscribe Easy tutorials YouTube Channel to watch more videos on wesite development, Digital Marketing, WordPress and graphics Designing.</p>
@@ -255,7 +258,7 @@
             <p class="user-details"><b>John Doe</b><br> Director at xyz</p>
           </div>
           </div>
-      </div> -->
+      </div>
       <div class="slider-item">
         <div class="row offset-1">
           <div class="col-md-4 testimonials">
@@ -318,25 +321,46 @@
     
 <!------------footer section ------------>   
 <section id="footer">
-<!-- <img src="images/wave2.png" class="footer-img">    -->
-<div class="container">
-<div class="row">
-<div class="col-md-4 footer-box">
-
-</div> 
-<div class="col-md-4 footer-box">
-    <p><b>CONTACT US</b></p>
-    <P><i class="fa fa-map-marker"></i> </P>
-    <P><i class="fa fa-phone"></i> </P>
-    <P><i class="fa fa-envelope-o"></i> </P>
     
-</div>
-
-</div>
-    <hr>
+  <!-- <img src="images/wave2.png" class="footer-img">    -->
+  
+      <div class="container">
+          <div id="particle"></div>
+          <div class="row">
+             
+          <div class="col-md-6 footer-box">
+          <img src="images/Logo.png">
+              <!-- <p>Learnenmet, where learning is made easy.<br></p> -->
+              <p>Join us on this adventure and strive for new prowess everyday.</p>
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GGbEx5amh5jNJo"> </script> </form>
+              
+          </div> 
+          
+          <div class="col-md-6 footer-box">
+              <p style="color: #048c80"><b>CONTACT US</b></p>
+              <p><i class="fa fa-map-marker"></i> EDUTHRIVE SOLUTIONS PVT.LTD
+                  #39, 8th Main Road, Vasanth Nagar, Bangalore, Karnataka – 560051 India</p>
+                  <p><i class="fa fa-phone"></i> 9330911962</p>
+              <p><i class="fa fa-phone"></i> 7892455304</p>
+              <p><i class="fa fa-phone"></i> 9836789718</p>
+              
+              <p><i class="fa fa-envelope"></i> learnenmetsolutions@gmail.com</p>
+              
+          </div>
+          <!-- <div class="col-md-4 footer-box">
+              <p><b>CONTACT-US </b></p>
+              <input type="email" class="form-control" placeholder="Your Email">
+              <button type="button" class="btn btn-primary">Contact us</button>
+              
+          </div> -->
+          
+          </div>
+              <hr>
+          <p class="copyright">&copy; 2020 Eduthrive Solutions Private Limited | All Rights Reserved</p>
+              <p class="copyright">Made with <span style="color: #048c80;">&#9829;</span> in India </p>
+          </div> 
    
-</div>   
-</section>    
+  </section>    
     
 <!------------Smooth Scroll--------------->   
     <script src="smooth-scroll.js"></script>
