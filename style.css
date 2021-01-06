@@ -17,45 +17,71 @@
     font-size: 16px;
 }
 
+.nav-link{color: #212121; font-size: 16px; font-weight: 400;transition: 0.3s;}
+.nav-link:visited{color: #212121;}
+.nav-link:hover{
+    color: #048C80;
+    text-decoration: none;
+}
+.nav-link.active{color:#048C80;}
+
+/*.navBtn{
+    z-index: 3;
+    padding: 13px 32px 13px 32px;
+    background-color: #faf8f7;
+    border-radius: 14px;
+    border: 2px solid #ff5722;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2e2c30;
+    transition: 0.4s;
+}
+.navBtn:hover{
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.05);
+    background-color: #ff5722;
+    color: #faf8f7;
+}*/
+
+
+
+
+
 #nav-bar
 {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
-    z-index: 10;
-    
+    z-index: 10;  
 }
+
+.navbar-nav.navbar-center {
+    position: relative;
+    left: 40%;
+    transform: translatex(-50%);
+}
+
 .navbar
 {
-    /* background-image: linear-gradient(to right, #a517ba,#5f1782); */
-    background-color: #ffff;
+    background-color: #fff;
     padding: 0 !important;
     height: 80px;
     text-align: center;
-    /* margin-right: 40%; */
-    /* margin-left: 70px; */
 }
 .navbar-brand img
 {
     height: 40px;
-    padding-left: 40px;
+    width: auto;
 }
 .navbar-nav li
 {
     padding: 0 10px;
-    height: 23px;
-    float: left;
-    text-align: center;
 }
 .nav-link
 {
     color: #000;
     font-weight: 400;
-    float: left;
     text-align: center;
 }
-.rightnav li{
-    float: right;
-}
+
 .active
 {
     color: teal;
@@ -78,7 +104,7 @@
     background-color: #eef5f4;
     color: #000;
     /*padding-top: 5%;*/
-    height: 95vh;
+    height: 90vh;
     width: 100%;
 }
 .promo-title
@@ -202,7 +228,7 @@ border-radius: 0 50px 50px 0 !important;
     width: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     display: block;
     transform: translateY(8px);    
 }
@@ -245,7 +271,7 @@ border-radius: 0 50px 50px 0 !important;
 {
     background: #ffff;
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .about-title
 {
@@ -268,7 +294,8 @@ border-radius: 0 50px 50px 0 !important;
 {
     margin: 100px 0;
     background-color: #eef5f4;
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     
 }
 .testimonials
@@ -322,6 +349,7 @@ border-radius: 0 50px 50px 0 !important;
 
 #footer
 {
+    padding-top: 60px;
     background: #212121;
     color: #fff;
 }
@@ -335,8 +363,7 @@ border-radius: 0 50px 50px 0 !important;
 }
 .footer-box img
 {
-    width: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .footer-box .fa
 {
@@ -367,6 +394,12 @@ border-radius: 0 50px 50px 0 !important;
 }
 .social .fa{
     color:white;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+.social .fa:hover{
+    color:#048C80;
+    text-decoration: none;
 }
 hr
 {
